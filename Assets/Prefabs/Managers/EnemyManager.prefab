@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6759714036417535775
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6759714036417535761}
+  - component: {fileID: 6759714036417535760}
+  m_Layer: 0
+  m_Name: EnemyManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6759714036417535761
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6759714036417535775}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6759714036417535760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6759714036417535775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8cde1ac48bfb4e4aaf51684d941a5f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyList: []
+  EnemyPrefab:
+  - {fileID: 1851269769831102829, guid: 8cc54f1779bc927458deb941c5f7ac07, type: 3}
+  - {fileID: 1851269769831102829, guid: ed7831d6c30a2674e8991209ecf03289, type: 3}
+  - {fileID: 1851269769831102829, guid: ec3a757fb966d0b44b74ae652e036f8d, type: 3}
+  - {fileID: 180918075095666809, guid: 3746e5a977ab2ab45a4c9926af0b16d0, type: 3}
+  - {fileID: 180918075095666809, guid: b1cba84b959193140ad8e09a656dc7d1, type: 3}
+  - {fileID: 180918075095666809, guid: 52491dd623e78da47b07497bc0047967, type: 3}
+  - {fileID: 6156711976603466962, guid: 7f1c6506d159ee6428fda29ed9ebb71d, type: 3}
+  - {fileID: 6156711976603466962, guid: 52eb5a132a25ade42a763dd9727737b4, type: 3}
+  - {fileID: 6156711976603466962, guid: f1dc7d716e8eed044b668458da93a7db, type: 3}
+  - {fileID: 2157919454157397635, guid: 99b191de96f4f604f9893d83fb64224c, type: 3}
+  - {fileID: 2157919454157397635, guid: 24ae0bb1af180954fafca4a8347adee5, type: 3}
+  - {fileID: 2157919454157397635, guid: 61f1c183efa3bb543808c4ace362be76, type: 3}
+  - {fileID: 8525818905253463447, guid: dc4fed6df05a0344f9117844e5a381ca, type: 3}
+  - {fileID: 6786531358480989137, guid: afb9d75228041c84295e4e8f1c3f269c, type: 3}
+  - {fileID: 6786531358480989137, guid: 587ef330db8316042809baa1d2acf0c7, type: 3}
+  - {fileID: 6786531358480989137, guid: 9c9ec37dc857965489118ca82c1c6b2a, type: 3}
+  - {fileID: 6156711976603466962, guid: cc736fb4c3717d94fa9201ee7311f51e, type: 3}
+  enemyGroup_1:
+  - {fileID: 1851269769831102829, guid: 8cc54f1779bc927458deb941c5f7ac07, type: 3}
+  enemyGroup_2:
+  - {fileID: 180918075095666809, guid: 3746e5a977ab2ab45a4c9926af0b16d0, type: 3}
+  - {fileID: 1851269769831102829, guid: ed7831d6c30a2674e8991209ecf03289, type: 3}
+  - {fileID: 1851269769831102829, guid: ec3a757fb966d0b44b74ae652e036f8d, type: 3}
+  enemyGroup_3:
+  - {fileID: 6156711976603466962, guid: 52eb5a132a25ade42a763dd9727737b4, type: 3}
+  - {fileID: 6156711976603466962, guid: f1dc7d716e8eed044b668458da93a7db, type: 3}
+  - {fileID: 180918075095666809, guid: b1cba84b959193140ad8e09a656dc7d1, type: 3}
+  - {fileID: 180918075095666809, guid: 52491dd623e78da47b07497bc0047967, type: 3}
+  enemyGroup_4:
+  - {fileID: 2157919454157397635, guid: 24ae0bb1af180954fafca4a8347adee5, type: 3}
+  - {fileID: 2157919454157397635, guid: 61f1c183efa3bb543808c4ace362be76, type: 3}
+  - {fileID: 6156711976603466962, guid: 7f1c6506d159ee6428fda29ed9ebb71d, type: 3}
+  enemyGroup_5:
+  - {fileID: 2157919454157397635, guid: 99b191de96f4f604f9893d83fb64224c, type: 3}
+  - {fileID: 8525818905253463447, guid: c341a355c56e5b642bff242a94399786, type: 3}
+  - {fileID: 8525818905253463447, guid: 0400b438cec3a0344ab0bb24caf554e6, type: 3}
+  enemyGroup_6:
+  - {fileID: 1851269769831102829, guid: 21ed45a90e4cad64082e272a212d198f, type: 3}
+  - {fileID: 1851269769831102829, guid: 68ff8dc6e1794644f83097d83461f4fc, type: 3}
+  - {fileID: 8525818905253463447, guid: dc4fed6df05a0344f9117844e5a381ca, type: 3}
+  enemyGroup_7:
+  - {fileID: 180918075095666809, guid: 1cccf331335b24d4c9667234df1f0e9a, type: 3}
+  - {fileID: 180918075095666809, guid: 53757e3965549b140a1544f45b1c1d7f, type: 3}
+  - {fileID: 6156711976603466962, guid: 263fa37cdfcc3dd40b8e17c87aa24a9f, type: 3}
+  - {fileID: 6156711976603466962, guid: a2556ec38dcb0e749b15fc6bf5bbb982, type: 3}
+  enemyGroup_8:
+  - {fileID: 6156711976603466962, guid: eb49f3e98a9c75c4ab68f09fc70d1f70, type: 3}
+  - {fileID: 180918075095666809, guid: 6da438098333d724a97ce4587856dbb0, type: 3}
+  - {fileID: 1851269769831102829, guid: 77ac72ec9f00fc04a91c462e91609540, type: 3}
+  enemyGroup_9:
+  - {fileID: 6156711976603466962, guid: 52092f88bea8305409d3af1e56537c04, type: 3}
+  - {fileID: 6156711976603466962, guid: fe6b5c1986a33ac41b99ea6dc35ff24a, type: 3}
+  - {fileID: 2157919454157397635, guid: 99b191de96f4f604f9893d83fb64224c, type: 3}
+  enemyGroup_10:
+  - {fileID: 6156711976603466962, guid: 84854a89b699f894b827fd6cbe78ea82, type: 3}
+  - {fileID: 6156711976603466962, guid: a885b1d9d6b90a344a7e9305805f6aa2, type: 3}
+  - {fileID: 6156711976603466962, guid: 9d443fd9dec0f494c9a5ac95e8660e05, type: 3}
+  - {fileID: 6156711976603466962, guid: 9d443fd9dec0f494c9a5ac95e8660e05, type: 3}
+  collectGroup:
+  - {fileID: 6786531358480989137, guid: afb9d75228041c84295e4e8f1c3f269c, type: 3}
+  - {fileID: 6786531358480989137, guid: 587ef330db8316042809baa1d2acf0c7, type: 3}
+  - {fileID: 6786531358480989137, guid: 9c9ec37dc857965489118ca82c1c6b2a, type: 3}
